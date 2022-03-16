@@ -1,0 +1,128 @@
+#logo{
+     width: 5%;
+     height: 5%;
+}
+h1{
+     display: inline;
+     vertical-align:60%;
+     font-size:40px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+* {
+     box-sizing: border-box;
+}
+#container{
+     background-color:white;
+     width:80%;
+     margin: auto;
+     margin-top:50px ;
+     box-sizing: border-box;
+     margin-bottom:20px ;
+     padding-bottom: 25px;
+}  
+input[type="checkbox"],label{   
+     margin:17px;
+     font-size: 20px;
+     margin-left: 15px;
+     cursor: pointer;
+     }
+ body{
+     background-color:whitesmoke;
+ }
+
+ header{
+     background-color: white;
+     margin: -10px -5px 0px -5px;
+    }
+
+#Add1{
+     background-color: cornflowerblue;
+     color: white;
+     border-radius: 5px;
+     border-color: cornflowerblue;
+     margin-left: 50px;
+     cursor:zoom-in;
+}
+#Add2{
+     border-radius: 5px;
+     background-color: white;
+     color:gray;
+     border-color: gray;
+     cursor: zoom-in;
+}
+h2{
+     margin-left: 40px;
+}
+.editorial{
+     background-color: cornflowerblue;
+     border-color: cornflowerblue;
+     color: white;
+     border-radius: 25px;
+     cursor:grab;
+}
+#goals{
+     border-radius: 25px; 
+     color: white;
+     background-color:rgb(168, 49, 199);
+     border-color:rgb(168, 49, 199) ;
+     cursor:grab;
+}
+#recruiter{
+     border-radius: 25px;
+     color: white;
+     background-color: rgb(53, 199, 53);
+     border-color: rgb(53, 199, 53);
+     cursor: grab;
+}
+#mobile{
+     border-radius: 25px;
+     border-color: orange;
+     background-color: orange;
+     color: white;
+     cursor:grab;
+}
+#website{
+     border-radius: 25px; 
+     color: white;
+     background-color: palevioletred;
+     border-color: palevioletred;
+     cursor:grab;
+}
+#sale{
+     border-radius: 25px; 
+     color: white;
+     background-color: #7da074;
+     border-color: #7da074;
+     cursor:grab;
+} 
+.checked{
+     width: 30px;
+     height: 30px;
+     cursor: pointer;
+}
+.checked .checkmark{
+     width: 18px;
+     height: 18px;
+     border: 2px solid rgb(12, 218, 12);
+     border-radius: 10px;
+     display:inline-block;
+     vertical-align: middle;
+     margin-right: 20px;
+     background: url(https://p.kindpng.com/picc/s/106-1060448_check-mark-clipart-png-powerpoint-check-mark-symbols.png) top/100% no-repeat;
+} 
+[type="checkbox"]{
+     appearance: none;
+}
+.checked .checkcross{
+     width: 18px;
+     height: 18px;
+     border: 2px solid red;
+     border-radius: 10px;
+     display:inline-block;
+     vertical-align: middle;
+     margin-right: 20px;
+     background:url(https://www.kindpng.com/picc/m/0-3156_red-cross-png-file-red-x-transparent-png.png) center/100% no-repeat;
+}
+
+
+
